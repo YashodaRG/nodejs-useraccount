@@ -1,0 +1,10 @@
+name: userapp
+
+deployment:
+  replicas: 3
+  image: 241916522557.dkr.ecr.ap-south-1.amazonaws.com/my-docker-repo
+
+service:
+  type: LoadBalancer
+  port: 3080
+  
