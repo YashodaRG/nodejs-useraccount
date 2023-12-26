@@ -19,3 +19,5 @@ spec:
         name: {{ .Values.name }}
         ports:
         - containerPort: {{ .Values.service.port }}
+      imagePullSecrets:
+        -name: helmsecret
