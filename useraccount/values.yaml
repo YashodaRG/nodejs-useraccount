@@ -2,7 +2,7 @@ name: userapp
 
 deployment:
   replicas: 3
-  image: 241916522557.dkr.ecr.ap-south-1.amazonaws.com/my-docker-repo
+  image: yashodarg/helmdeployment
 
 service:
   type: LoadBalancer
